@@ -17,7 +17,10 @@ public class Test {
         Persona p;
         p = new Persona(114515616,"German","Vega");
         Persona q = new Persona(114568754,"Bones","James");
-        JOptionPane.showMessageDialog(null,"El nombre del Objeto p es:"+p.primer_nombre);
+        
+        p.setPrimer_nombre("Claudio");
+        
+        JOptionPane.showMessageDialog(null,"El nombre del Objeto p es:" +p.getPrimer_nombre());
        
     }
     
